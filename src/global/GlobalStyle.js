@@ -30,7 +30,7 @@ const GlobalStyles = createGlobalStyle`
     }
     button{
         background-color: transparent;
-        border: solid 2px black;
+        border: solid 1px lightgray;
     }
     dl, li, menu, ol, ul {
         list-style: none;

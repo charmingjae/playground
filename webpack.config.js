@@ -17,6 +17,7 @@ module.exports = {
       "@template": path.resolve(__dirname, "src/component/template"),
       "@menu": path.resolve(__dirname, "src/component/menu"),
       "@page": path.resolve(__dirname, "src/page"),
+      "@router": path.resolve(__dirname, "src/router"),
     },
   },
   devtool: "eval-cheap-source-map",

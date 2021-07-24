@@ -1,34 +1,16 @@
 import React from "react";
 import TestPage from "@page/testPage";
 import NavBar from "@template/navigationBar";
+import RouterNavBar from "@router/routerNavBar";
 import "@css/App.module.css";
 
 const App = () => {
   return (
     <>
       <header>
-        <NavBar />
+        <RouterNavBar />
       </header>
-      <section>
-        <TestPage />
-        <TestPage />
-        <TestPage />
-        <TestPage />
-        <TestPage />
-        <TestPage />
-        <TestPage />
-        <TestPage />
-        <TestPage />
-        <TestPage />
-        <TestPage />
-        <TestPage />
-        <TestPage />
-        <TestPage />
-        <TestPage />
-        <TestPage />
-        <TestPage />
-        <TestPage />
-      </section>
+      <section></section>
     </>
   );
 };

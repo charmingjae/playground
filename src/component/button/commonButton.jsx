@@ -1,4 +1,5 @@
 import React from "react";
+import "@css/commonButton.module.css";
 
 function CommonButton({ btnValue }) {
   return (

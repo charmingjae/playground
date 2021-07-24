@@ -6,7 +6,8 @@
         "@button/*" : ["src/component/button/*"],
         "@template/*" : ["src/component/template/*"],
         "@menu/*" : ["src/component/menu/*"],
-        "@page/*" : ["src/page/*"]
+        "@page/*" : ["src/page/*"],
+        "@router/*" : ["src/router/*"]
       }
   }
 }

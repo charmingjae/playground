@@ -1,7 +1,9 @@
 import React from "react";
+import RegisterTemplate from "@template/registerTemplate";
+import { hot } from "react-hot-loader/root";
 
 function RegisterPage() {
-  return <div>This is the Register Page</div>;
+  return <RegisterTemplate />;
 }
 
-export default RegisterPage;
+export default hot(RegisterPage);

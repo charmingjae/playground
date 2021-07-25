@@ -1,18 +1,17 @@
 import React from "react";
-import TestPage from "@page/testPage";
-import NavBar from "@template/navigationBar";
-import RouterNavBar from "@router/routerNavBar";
+import RouterRoot from "@router/routerRoot";
 import "@css/App.module.css";
+import { hot } from "react-hot-loader/root";
 
 const App = () => {
   return (
     <>
       <header>
-        <RouterNavBar />
+        <RouterRoot />
       </header>
       <section></section>
     </>
   );
 };
 
-export default App;
+export default hot(App);

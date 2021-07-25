@@ -1,13 +1,15 @@
 import React from "react";
-import { container, item } from "@css/testTemplate.module.css";
-import { Link, Route, Switch, BrowserRouter as Router } from "react-router-dom";
+import { Link } from "react-router-dom";
+import { container, item } from "@css/navTemplate.module.css";
 import CommonButton from "@button/commonButton";
 import MainMenu from "@menu/mainMenu";
 
-function NavBar() {
+function NavTemplate() {
   return (
     <div className={`${container}`}>
-      <div className={`${item}`}>PlayGround</div>
+      <div className={`${item}`}>
+        <a href="/">PlayGround</a>
+      </div>
       <div className={`${item}`}>
         <MainMenu />
       </div>
@@ -23,4 +25,4 @@ function NavBar() {
   );
 }
 
-export default NavBar;
+export default NavTemplate;

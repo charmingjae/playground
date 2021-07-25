@@ -1,7 +1,9 @@
 import React from "react";
+import LoginTemplate from "@template/loginTemplate";
+import { hot } from "react-hot-loader/root";
 
 function LoginPage() {
-  return <div>Login Page</div>;
+  return <LoginTemplate />;
 }
 
-export default LoginPage;
+export default hot(LoginPage);

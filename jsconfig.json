@@ -2,12 +2,13 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths":{
-        "@css/*" : ["src/css/*"],
-        "@button/*" : ["src/component/button/*"],
-        "@template/*" : ["src/component/template/*"],
-        "@menu/*" : ["src/component/menu/*"],
-        "@page/*" : ["src/page/*"],
-        "@router/*" : ["src/router/*"]
+        "@css/*" : ["src/Css/*"],
+        "@button/*" : ["src/Component/button/*"],
+        "@template/*" : ["src/Component/template/*"],        
+        "@menu/*" : ["src/Component/menu/*"],
+        "@page/*" : ["src/Page/*"],
+        "@router/*" : ["src/Router/*"]
       }
-  }
+  },
+  "exclude": ["node_modules"]
 }
